@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 教學練習</title>
+    <style>
+        /* 這裡簡單加了一些 CSS 讓它看起來跟影片中一樣 */
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 32px;
+        }
+
+        /* 實作影片中標題左側的紅色線條 */
+        h2 {
+            border-left: 5px solid red;
+            padding-left: 10px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .logo-box {
+            border: 1px solid #ccc;
+            display: inline-block;
+            padding: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS教學</h1>
+
+    <p>在這堂課程上面，你了解如何使用CSS設定用在HTML標籤上，以及設定<a href="#" class="red">連結顏色</a>。</p>
+
+    <h2>這章節你認識的CSS設定文字語法</h2>
+    <ol>
+        <li>文字顏色：color</li>
+        <li>文字大小：font-size</li>
+        <li>文字行距：line-height</li>
+        <li>文字字型：font-family</li>
+        <li>其它..</li>
+    </ol>
+
+    <h2>下列的emmet語法，哪一項是錯的？</h2>
+    <ul>
+        <li>! = HTML5 環境</li>
+        <li>link:src = 匯入CSS (注意：影片提醒正確應為 link:css)</li>
+        <li>p*4 = 顯示4個p段落</li>
+        <li>h1 = 展開h1的開頭與結尾html標籤</li>
+        <li>lorem = 自動幫我們寫完網頁</li>
+    </ul>
+
+    <h2>在圖片上加上logo的線條</h2>
+    <div class="logo-box">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chat-homework/logo.png" alt="Hex School Logo">
+    </div>
+
+</body>
+</html>
+
+
+
+
